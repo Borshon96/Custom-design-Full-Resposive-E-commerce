@@ -157,3 +157,29 @@
     justify-content: center;
   }
 }
+
+/* client stat */
+@media (max-width: 767px) {
+  .stat-dis {
+    height: 30vh;
+  }
+  .ven-ico {
+    font-size: 4rem;
+  }
+  .ven-num {
+    font-size: 1.6rem;
+  }
+  .ven-text {
+    font-size: 1rem;
+  }
+}
+
+/* footer */
+@media (max-width: 767px) {
+  .fotimg {
+    height: 10vh;
+    width: 22vw;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+}
