@@ -1,0 +1,45 @@
+@media (min-width: 576px) and (max-width: 991px) {
+  .chkoutbtn {
+    width: 38%;
+  }
+  .form-control {
+    width: 12.5rem;
+    margin-left: 0px;
+  }
+  .rig-lef-al {
+    display: flex;
+    justify-content: center;
+  }
+  .lefAl {
+    width: 30rem;
+    margin-bottom: 2rem;
+  }
+  .updatebtn {
+    width: 34%;
+    margin-right: 8px;
+  }
+}
+
+@media (max-width: 575px) {
+  .prod_table {
+    overflow-x: scroll;
+  }
+  .chkoutbtn {
+    width: 100%;
+  }
+  .form-control {
+    margin-left: 0px;
+  }
+  .rig-lef-al {
+    display: flex;
+    justify-content: center;
+  }
+  .lefAl {
+    width: 30rem;
+    margin-bottom: 2rem;
+  }
+  .updatebtn {
+    width: 100%;
+    margin-right: 0px;
+  }
+}

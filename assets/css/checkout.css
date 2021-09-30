@@ -1,0 +1,124 @@
+.retCus {
+  border: 1px solid #d5e3a9;
+  padding: 0.8rem;
+  background: #d5e3a9;
+  border-radius: 8px 8px 0px 0px;
+}
+.rcfc {
+  color: #17785f;
+  margin-bottom: 0rem;
+}
+.rcborder {
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
+  padding: 1rem;
+}
+.fonSiz14 {
+  font-size: 14px;
+}
+.fonSiz12 {
+  font-size: 12px;
+}
+.disfex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.inp1 {
+  margin-right: 5rem;
+}
+.btn-xs1 {
+  background: #ff9212;
+  border-color: #ff9212;
+  padding: 0.6rem;
+  width: 18%;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+.btn-xs1:hover {
+  background: #ffffff;
+  border-color: #ff9212;
+  color: #ff9212;
+  padding: 0.6rem;
+  width: 18%;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+.fs4 {
+  font-size: 4rem;
+}
+.padri4 {
+  padding-right: 4%;
+}
+.fw500 {
+  font-weight: 500;
+}
+.mr2r {
+  margin-right: 2rem;
+}
+.boxshad {
+  box-shadow: 0px 2px 10px 0px #eae7e7;
+  border-radius: 6px;
+  padding: 2rem;
+}
+.disSpB {
+  display: flex;
+  justify-content: space-between;
+}
+.hr2 {
+  height: 2px;
+}
+.hr3 {
+  height: 2px;
+}
+.dbt {
+  color: white;
+  text-align: justify;
+}
+.btnas {
+  width: 100%;
+  border-radius: 2rem;
+  color: white;
+  background-color: #ff9212;
+  border: 1px solid #ff9212;
+}
+.btnas:hover {
+    width: 100%;
+    border-radius: 2rem;
+    color: #ff9212;
+    background-color: #ffffff;
+    border: 1px solid #ff9212;
+  }
+.div21 {
+  background-color: rgb(161, 157, 157);
+  padding: 1.6rem;
+  border-radius: 8px;
+}
+.p12 {
+  font-size: 12px;
+  margin-top: 1rem;
+}
+.w70 {
+  width: 70px;
+  height: 70px;
+}
+a {
+  color: #187960;
+  text-decoration: none;
+  font-weight: 800;
+}
+.input-group > .form-control,
+.input-group > .form-select {
+  position: relative;
+  flex: 1 1 auto;
+  width: 1%;
+  min-width: 0;
+  border-radius: 20px;
+}
+.form-floating > .form-control {
+  padding: 1rem 0.75rem;
+  border-radius: 8px;
+  width: 98%;
+}

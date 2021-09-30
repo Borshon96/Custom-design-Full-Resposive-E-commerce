@@ -1,0 +1,88 @@
+/* prod css */
+.prod_img {
+  height: 4rem;
+  width: 4rem;
+}
+
+/* Counter */
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.counter input {
+  width: 50px;
+  border: 0;
+  line-height: 30px;
+  font-size: 20px;
+  text-align: center;
+  background: #046b4f;
+  color: #fff;
+  appearance: none;
+  outline: 0;
+}
+.counter span {
+  display: block;
+  font-size: 20px;
+  padding: 0 10px;
+  cursor: pointer;
+  color: #046b4f;
+  user-select: none;
+}
+.bi-trash-fill {
+  font-size: 1.4rem;
+}
+.checkoutCart {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.chkoutbtn {
+  width: 26%;
+}
+.cartTotal {
+  display: flex;
+  flex-direction: column;
+}
+.subTotal {
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  color: #dd3545;
+  text-decoration: underline;
+}
+.btn-danger2 {
+  color: #fff;
+  background-color: #ff9212;
+  border-color: #ff9212;
+}
+.formc2 {
+  border-radius: 0.6rem 0rem 0rem 0.6rem;
+  border: 1px solid #ff9212;
+}
+.rig-lef-al {
+  display: flex;
+  justify-content: space-between;
+}
+.rigAl {
+  width: 20rem;
+}
+.lefAl {
+  width: 30rem;
+}
+.updatebtn {
+  width: 22%;
+  margin-right: 8px;
+}
+.btn-danger3 {
+  color: #ff9212;
+  background-color: #ffffff;
+  border-color: #ff9212;
+}
+.btn-danger3:hover {
+    color: #046b4f;
+    background-color: #ffffff;
+    border-color: #046b4f;
+  }

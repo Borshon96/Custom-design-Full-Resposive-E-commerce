@@ -1,0 +1,93 @@
+.rub-bor2{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+.cal {
+    height: 9.5rem;
+    width: 9.5rem;
+    background-color: #d6e3a9;
+    margin: 4px;
+    border-radius: 18px;
+    box-shadow: 0px 2px 6px #046b4f73;
+}
+.cal:hover {
+    height: 9.5rem;
+    width: 9.5rem;
+    background-color: #ff9212;
+    margin: 4px;
+    border-radius: 18px;
+    box-shadow: 0px 0px;
+    transition: ease-in-out;
+}
+.cal1 {
+    background-image: url(../images/cal1.jpg);
+    background-size: contain;
+}
+.cal2 {
+    background-image: url(../images/cal2.jpg);
+    background-size: contain;
+}
+.cal3 {
+    background-image: url(../images/cal3.jpg);
+    background-size: contain;
+}
+.cal4 {
+    background-image: url(../images/cal4.jpg);
+    background-size: contain;
+}
+.cal5 {
+    background-image: url(../images/OrngEcomilliLogo.png);
+    background-size: contain;
+}
+.cal6 {
+    background-image: url(../images/cal6.jpg);
+    background-size: contain;
+}
+.cal7 {
+    background-image: url(../images/cal7.png);
+    background-size: contain;
+}
+.cal8 {
+    background-image: url(../images/cal8.jpg);
+    background-size: contain;
+}
+.cal9 {
+    background-image: url(../images/cal9.jpg);
+    background-size: contain;
+}
+.ppl1 {
+    background-image: url(../images/ppl1.jpg);
+    background-size: contain;
+}
+.ppl2 {
+    background-image: url(../images/ppl2.jpg);
+    background-size: contain;
+}
+.ppl3 {
+    background-image: url(../images/ppl3.jpg);
+    background-size: contain;
+}
+.ppl4 {
+    background-image: url(../images/ppl4.jpg);
+    background-size: contain;
+}
+.ppl6 {
+    background-image: url(../images/ppl6.jpg);
+    background-size: contain;
+}
+.ppl7 {
+    background-image: url(../images/ppl7.jpg);
+    background-size: contain;
+}
+.ppl8 {
+    background-image: url(../images/ppl8.jpeg);
+    background-size: contain;
+}
+.ppl9 {
+    background-image: url(../images/ppl9.jpg);
+    background-size: contain;
+}
+.supTextAl{
+    text-align: center;
+    margin-top: 2rem;
+}

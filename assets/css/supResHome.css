@@ -1,0 +1,32 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    .cal {
+        height: 8.5rem;
+        width: 8.5rem;
+    }
+    .cal:hover {
+        height: 8.5rem;
+        width: 8.5rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .cal {
+        height: 4.5rem;
+        width: 4.5rem;
+    }
+    .cal:hover {
+        height: 4.5rem;
+        width: 4.5rem;
+    }
+}
+
+@media (max-width: 531px) {
+    .cal {
+        height: 5.5rem;
+        width: 5.5rem;
+    }
+    .cal:hover {
+        height: 5.5rem;
+        width: 5.5rem;
+    }
+}

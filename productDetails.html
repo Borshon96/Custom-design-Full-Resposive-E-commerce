@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ecomilli - Superstore Home</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.png"
+      type="image/x-icon"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- Style css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Responsive 5 css -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <!-- Style css -->
+    <link rel="stylesheet" href="assets/css/SupHomeStyle.css" />
+
+    <!-- responsive Superstore home -->
+    <link rel="stylesheet" href="assets/css/supResHome.css" />
+
+    <!-- style product page -->
+    <link rel="stylesheet" href="assets/css/products.css" />
+
+    <!-- style product page -->
+    <link rel="stylesheet" href="assets/css/productRes.css" />
+
+    <!-- style product details page -->
+    <link rel="stylesheet" href="assets/css/productDetails.css" />
+
+    <!-- style product details responsive page -->
+    <link rel="stylesheet" href="assets/css/productDetailsRes.css" />
+
+    <!-- bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- Navigation Section 1 -->
+    <section id="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="./assets/images/logo.png" alt="logo" height="56" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <form class="d-flex">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="Search Superstore"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success btn-custom" type="submit">
+                <i class="bi bi-search"></i>
+              </button>
+            </form>
+            <ul class="navbar-nav ms-custom">
+              <li class="nav-item nav-custom" style="width: 70px; height: 70px">
+                <img
+                  class="ico_img"
+                  src="./assets/images/icons/community.png"
+                  alt=""
+                />
+                <a class="nav-link font_custom" href="communityHome.html"
+                  >Community</a
+                >
+              </li>
+              <li class="nav-item nav-custom" style="width: 70px; height: 70px">
+                <img
+                  class="ico_img"
+                  src="./assets/images/icons/superstore.png"
+                  alt=""
+                />
+                <a
+                  class="nav-link font_custom active2"
+                  href="superstoreHome.html"
+                  >Superstore</a
+                >
+              </li>
+              <li class="nav-item nav-custom" style="width: 70px; height: 70px">
+                <img
+                  class="ico_img"
+                  src="./assets/images/icons/bag.png"
+                  alt=""
+                />
+                <a class="nav-link font_custom" href="cart.html">Bag</a>
+              </li>
+
+              <li class="nav-item nav-custom" style="width: 70px; height: 70px">
+                <img
+                  class="ico_img"
+                  src="./assets/images/icons/signUp.png"
+                  alt=""
+                />
+                <a class="nav-link font_custom" href="signUp.html">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- Navigation Section 1 end -->
+    <!-- Navigation Section 2 -->
+    <section id="header2" class="navnav">
+      <nav class="navbar navbar-expand-lg navbar-light2 bg-green">
+        <div class="container nav-con2">
+          <a class="navbar-brand br-clr" href="#"><i class="bi bi-list"></i></a>
+          <div class="" id="navbarNav">
+            <ul class="navbar-nav navbar-nav2">
+              <li class="nav-item">
+                <a
+                  class="nav-link active cus-nav2 br-clr"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item cus-nav2 br-clr">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item cus-nav2 br-clr">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- Navigation Section 2 end -->
+
+    <!-- details -->
+    <section id="details">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="detailDiv">
+              <div class="headerProf">
+                <div class="profimgdiv">
+                  <img class="profimg" src="./assets/images/ppl1.jpg" alt="" />
+                  <div class="pfrotext">
+                    <p class="pp">John Doe Store</p>
+                    <p class="pp2">@johndoe</p>
+                    <div class="strdiv">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="wishLogo"><i class="bi bi-heart"></i></div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6 disimg">
+                  <img class="prodimg" src="./assets/images/cal3.jpg" alt="" />
+                  <div class="disimgsm">
+                    <img
+                      class="prodimg3"
+                      src="./assets/images/cal4.jpg"
+                      alt=""
+                    />
+                    <img
+                      class="prodimg3"
+                      src="./assets/images/cal4.jpg"
+                      alt=""
+                    />
+                    <img
+                      class="prodimg3"
+                      class="prodimg"
+                      src="./assets/images/cal4.jpg"
+                      alt=""
+                    />
+                    <img
+                      class="prodimg3"
+                      src="./assets/images/cal4.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <h5>ECO WATER</h5>
+                  <h5>$122 <span>+SNH</span></h5>
+                  <div class="strdiv">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  <div class="shareDiv">
+                    <p class="p1p">Share:</p>
+                    <div class="circlediv">
+                      <i class="bi bi-ui-radios-grid" title="ecomilli"></i>
+                    </div>
+                    <div class="circlediv">
+                      <i class="bi bi-envelope-fill" title="Gmail"></i>
+                    </div>
+                    <div class="circlediv">
+                      <i class="bi bi-whatsapp" title="WhatsApp"></i>
+                    </div>
+                    <div class="circlediv">
+                      <i class="bi bi-back" title="Copy"></i>
+                    </div>
+                  </div>
+                  <div class="counaddbuy">
+                    <div class="counter">
+                      <span class="down" onClick="decreaseCount(event, this)"
+                        >-</span
+                      >
+                      <input type="text" value="1" />
+                      <span class="up" onClick="increaseCount(event, this)"
+                        >+</span
+                      >
+                    </div>
+                    <a class="btn btn-orange11" href="cart.html" role="button"
+                      ><i class="bi bi-cart-check"></i> Add to Bag</a
+                    >
+                    <a class="btn btn-orange12" href="#" role="button"
+                      ><i class="bi bi-bag"></i> Buy Now</a
+                    >
+                  </div>
+                  <div class="proDes">
+                    <div class="proDesHead">
+                      <h5 class="txtp">Product Description</h5>
+                    </div>
+                    <div class="proDesBody">
+                      <p class="p2p">
+                        A seemingly simple dustpan with a few features to make
+                        life easier. The arch and length of the ustpan eases
+                        cleanup, the wood turned handle provides firm grip
+                        Dustpan Measures 45 cm/17.7 in
+                      </p>
+                    </div>
+                  </div>
+                  <div class="review">
+                    <h5 class="rr">Review <span>(5)</span></h5>
+                    <div class="row mt-2">
+                      <div class="col-sm-2">
+                        <img
+                          class="imgq"
+                          src="./assets/images/ppl8.jpeg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-sm-10 comment">
+                        <p class="p2p">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing
+                          elit.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row mt-2">
+                      <div class="col-sm-2">
+                        <img
+                          class="imgq"
+                          src="./assets/images/ppl8.jpeg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-sm-10 comment">
+                        <p class="p2p">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing
+                          elit. Quos quibusdam quis repudiandae ab voluptatibus
+                          odit veritatis soluta unde ex illum! Beatae nisi
+                          perferendis assumenda sint, tempore voluptatibus
+                          impedit veniam et!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 vvdiv">
+            <div class="venDiv">
+              <div class="venDivName">
+                <img class="venImg" src="./assets/images/ppl3.jpg" alt="" />
+                <h4 class="h44">John Doe Store</h4>
+              </div>
+              <div class="venDivProd">
+                <div class="venDivProd1">
+                  <div class="prodImg3">
+                    <img
+                      class="prodImg3a"
+                      src="./assets/images/cal7.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="unknown">
+                    <p class="jkl">Green T-Shirt</p>
+                    <p class="jkl">$200.00</p>
+                    <div class="strdiv">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                    <a class="btn btn-orange21" href="cart.html" role="button"
+                      ><i class="bi bi-cart-check"></i> Add to Bag</a
+                    >
+                  </div>
+                </div>
+                <div class="venDivProd1">
+                  <div class="prodImg3">
+                    <img
+                      class="prodImg3a"
+                      src="./assets/images/cal7.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="unknown">
+                    <p class="jkl">Green T-Shirt</p>
+                    <p class="jkl">$200.00</p>
+                    <div class="strdiv">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                    <a class="btn btn-orange21" href="#" role="button"
+                      ><i class="bi bi-cart-check"></i> Add to Bag</a
+                    >
+                  </div>
+                </div>
+                <div class="venDivProd1">
+                  <div class="prodImg3">
+                    <img
+                      class="prodImg3a"
+                      src="./assets/images/cal7.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="unknown">
+                    <p class="jkl">Green T-Shirt</p>
+                    <p class="jkl">$200.00</p>
+                    <div class="strdiv">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>
+                      <i class="bi bi-star"></i>
+                    </div>
+                    <a class="btn btn-orange21" href="#" role="button"
+                      ><i class="bi bi-cart-check"></i> Add to Bag</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- details end -->
+
+    <!-- related prod -->
+    <div class="container"><h4 class="grn">Related Products</h4></div>
+    <div class="container afd">
+      <div class="fd">
+        <a class="prodlink" href="productDetails.html">
+          <div class="fdimg">
+            <img class="prodimg2" src="./assets/images/cal4.jpg" alt="" />
+          </div>
+          <div class="txtdiv">
+            <p class="txt1">eco water</p>
+            <p class="price">$10.00</p>
+            <div class="strdiv">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="fd">
+        <a class="prodlink" href="productDetails.html">
+          <div class="fdimg">
+            <img class="prodimg2" src="./assets/images/cal4.jpg" alt="" />
+          </div>
+          <div class="txtdiv">
+            <p class="txt1">eco water</p>
+            <p class="price">$10.00</p>
+            <div class="strdiv">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="fd">
+        <a class="prodlink" href="productDetails.html">
+          <div class="fdimg">
+            <img class="prodimg2" src="./assets/images/cal4.jpg" alt="" />
+          </div>
+          <div class="txtdiv">
+            <p class="txt1">eco water</p>
+            <p class="price">$10.00</p>
+            <div class="strdiv">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="fd">
+        <a class="prodlink" href="productDetails.html">
+          <div class="fdimg">
+            <img class="prodimg2" src="./assets/images/cal4.jpg" alt="" />
+          </div>
+          <div class="txtdiv">
+            <p class="txt1">eco water</p>
+            <p class="price">$10.00</p>
+            <div class="strdiv">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="fd">
+        <a class="prodlink" href="productDetails.html">
+          <div class="fdimg">
+            <img class="prodimg2" src="./assets/images/cal4.jpg" alt="" />
+          </div>
+          <div class="txtdiv">
+            <p class="txt1">eco water</p>
+            <p class="price">$10.00</p>
+            <div class="strdiv">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="fd">
+        <a class="prodlink" href="productDetails.html">
+          <div class="fdimg">
+            <img class="prodimg2" src="./assets/images/cal4.jpg" alt="" />
+          </div>
+          <div class="txtdiv">
+            <p class="txt1">eco water</p>
+            <p class="price">$10.00</p>
+            <div class="strdiv">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="fd">
+        <a class="prodlink" href="productDetails.html">
+          <div class="fdimg">
+            <img class="prodimg2" src="./assets/images/cal4.jpg" alt="" />
+          </div>
+          <div class="txtdiv">
+            <p class="txt1">eco water</p>
+            <p class="price">$10.00</p>
+            <div class="strdiv">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Footer 1 -->
+    <section id="footer1">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-7 col-md-4">
+            <img class="imgfot" src="./assets/images/logoText.png" alt="" />
+            <p class="pfot">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+              aspernatur numquam. Est natus reprehenderit amet facilis autem quo
+              vel minima esse ipsum libero tempora iure aliquid, fugit deserunt,
+              ratione odit.
+            </p>
+            <ul class="ulfot">
+              <li class="lifot">
+                <a href="#"><i class="bi bi-instagram bi2"></i></a>
+              </li>
+              <li class="lifot">
+                <a href="#"><i class="bi bi-whatsapp bi2"></i></a>
+              </li>
+              <li class="lifot">
+                <a href="#"><i class="bi bi-google bi2"></i></a>
+              </li>
+              <li class="lifot">
+                <a href="#"><i class="bi bi-youtube bi2"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-5 col-md-3">
+            <div class="linkfot">
+              <h3 class="linkfottext">Link</h3>
+              <ul class="lifotul">
+                <li class="lifotli bi3">Community</li>
+                <li class="lifotli bi3">Superstore</li>
+                <li class="lifotli bi3">Bag</li>
+                <li class="lifotli bi3">SignUp</li>
+                <li class="lifotli bi3">Contact</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-5">
+            <div class="linkfot">
+              <h3 class="linkfottext">Social Media</h3>
+              <div class="fotimg1">
+                <img class="fotimg" src="./assets/images/tea.jpg" alt="" />
+                <img class="fotimg" src="./assets/images/tea.jpg" alt="" />
+                <img class="fotimg" src="./assets/images/tea.jpg" alt="" />
+              </div>
+              <div class="fotimg1">
+                <img class="fotimg" src="./assets/images/tea.jpg" alt="" />
+                <img class="fotimg" src="./assets/images/tea.jpg" alt="" />
+                <img class="fotimg" src="./assets/images/tea.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer 1 end -->
+
+    <!-- Footer 2 -->
+    <section id="footer2">
+      <div class="footer2">
+        <img
+          height="14"
+          src="./assets/images/copyright-svgrepo-com.svg"
+          alt=""
+        />2021Ecomilli - Design & Developed by
+        <a class="fotghit" href="https://ghitbd.com/"
+          >Golden Harvest InfoTech Ltd.</a
+        >
+        All rights reserved.
+      </div>
+    </section>
+    <!-- Footer 2 end -->
+    <script src="./assets/js/main.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
