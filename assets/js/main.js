@@ -67,3 +67,53 @@ function decreaseCount(a, b) {
     input.value = value;
   }
 }
+
+//
+var myModal = document.getElementById("myModal");
+var myInput = document.getElementById("myInput");
+
+myModal.addEventListener("shown.bs.modal", function () {
+  myInput.focus();
+});
+
+//vid autoplay
+function enableAutoplay() {
+  var vid = document.getElementById("myVideo");
+  vid.autoplay = true;
+  vid.load();
+}
+
+function disableAutoplay() {
+  var vid = document.getElementById("myVideo");
+  vid.autoplay = false;
+  vid.load();
+}
+
+//wishbutton
+// function changeColor(event) {
+//   const el = event.target;
+//   el.setAttribute('style', 'color: blue');
+// }
+
+// function myFunction() {
+//   document.getElementById("foo").setAttribute("class", "bbh");
+// }
+
+//
+function myFunction() {
+  var x = document.getElementById("wishLogo");
+  if (x.style.color === "gray") {
+    x.style.color = "#ff9212";
+  } else {
+    x.style.color = "gray";
+  }
+}
+function myFunction2() {
+  var x = document.getElementById("wishLogo2");
+  if (x.style.color === "gray") {
+    x.style.color = "#ff9212";
+  } else {
+    x.style.color = "gray";
+  }
+}
+

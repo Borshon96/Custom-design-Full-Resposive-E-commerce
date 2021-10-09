@@ -1,0 +1,237 @@
+@media (min-width: 768px) and (max-width: 991px) {
+  .postImg2 {
+    height: 3rem;
+    width: 3rem;
+    background-color: green;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .fcHeading {
+    background-color: #d5e3a9;
+    height: 3rem;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px 6px 0px 0px;
+    font-size: 1rem;
+    color: #046b4f;
+  }
+  .fcImgSize {
+    height: 3rem;
+    width: 3rem;
+    object-fit: cover;
+    border-radius: 6px;
+    background-color: #046b4f;
+  }
+  .bbc {
+    font-size: 12px;
+  }
+  .bbc2 {
+    font-size: 10px;
+  }
+  .fsize2 {
+    font-size: 10px;
+  }
+  .lebel1 {
+    font-size: 12px;
+  }
+  .selectPost {
+    font-size: 12px;
+  }
+  .add1 {
+    font-size: 12px;
+    padding-right: 2px;
+  }
+  .btn-orange5 {
+    background: #ff9212;
+    width: 6rem;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 0rem;
+    font-size: 12px;
+  }
+  .addVP {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    flex-direction: column;
+  }
+  .add0 {
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+  }
+  .cal {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 8px;
+  }
+  .cal:hover {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 8px;
+    background: #ff9212;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .fchead0 {
+    display: none;
+  }
+  .flxDi {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .addA {
+    display: none;
+  }
+  .story2 {
+    height: 7rem;
+    width: 7rem;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 5px #046b4f;
+  }
+  .imgStory {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 10px;
+  }
+  .story {
+    height: 7rem;
+    width: 7rem;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 0px #046b4f;
+  }
+  .storyProfile {
+    position: relative;
+    top: -7rem;
+    left: 0.3rem;
+  }
+  .postDiv {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #d5e3a92e;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .fchead0 {
+    display: none;
+  }
+  .flxDi {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .addA {
+    display: none;
+  }
+  .story2 {
+    height: 7rem;
+    width: 7rem;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 5px #046b4f;
+  }
+  .imgStory {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 10px;
+  }
+  .story {
+    height: 7rem;
+    width: 7rem;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 0px #046b4f;
+  }
+  .storyProfile {
+    position: relative;
+    top: -7rem;
+    left: 0.3rem;
+  }
+  .addVP {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    flex-direction: column;
+  }
+  .lebel1 {
+    font-size: 12px;
+  }
+  .selectPost {
+    font-size: 12px;
+  }
+  .add1 {
+    font-size: 12px;
+    margin-right: 4px;
+  }
+  .btn-orange5 {
+    background: #ff9212;
+    width: 6rem;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 0rem;
+    font-size: 12px;
+  }
+  .add0 {
+    margin-top: 8px;
+  }
+  .imgStory {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 10px;
+  }
+  .story2 {
+    height: 5rem;
+    width: 5rem;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 5px #046b4f;
+  }
+  .protex {
+    font-size: 12px;
+  }
+  .opa {
+    background-color: white;
+    top: -4.6rem;
+    position: relative;
+    border-radius: 0px 0px 10px 10px;
+    opacity: 0.8;
+  }
+  .story {
+    height: 5rem;
+    width: 5rem;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 0px #046b4f;
+  }
+  .storyProfile {
+    position: relative;
+    top: -5rem;
+    left: 0.3rem;
+  }
+  .opa2 {
+    background-color: white;
+    top: -2.2rem;
+    position: relative;
+    border-radius: 0px 0px 10px 10px;
+    opacity: 0.8;
+  }
+  .postDiv {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #d5e3a92e;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+}

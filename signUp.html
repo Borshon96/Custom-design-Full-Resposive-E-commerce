@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Ecomilli - Community Home</title>
+    <title>Ecomilli - Sign Up</title>
     <link
       rel="shortcut icon"
-      href="./assets/images/logo.png"
+      href="./assets/images/EcomilliAppLogo.png"
       type="image/x-icon"
     />
     <meta charset="UTF-8" />
@@ -34,6 +34,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
     />
+    <!-- fontawesome -->
+    <link href="./assets/fontawesome/css/all.css" rel="stylesheet">
   </head>
   <body data-bs-spy="scroll" data-bs-target=".navbar">
     <!-- Navigation Section 1 -->
@@ -70,10 +72,10 @@
               <li class="nav-item nav-custom" style="width: 70px; height: 70px">
                 <img
                   class="ico_img"
-                  src="./assets/images/icons/community.png"
+                  src="./assets/images/icons/Community.png"
                   alt=""
                 />
-                <a class="nav-link font_custom" href="communityHome.html"
+                <a class="nav-link font_custom" href="communityFeed.html"
                   >Community</a
                 >
               </li>
@@ -102,8 +104,8 @@
                   src="./assets/images/icons/signUp.png"
                   alt=""
                 />
-                <a class="nav-link font_custom active2" href="signUp.html"
-                  >Sign Up</a
+                <a class="nav-link font_custom active2" href="signIn.html"
+                  >Sign In</a
                 >
               </li>
             </ul>
@@ -121,14 +123,14 @@
             <ul class="navbar-nav navbar-nav2">
               <li class="nav-item">
                 <a
-                  class="nav-link active cus-nav2 br-clr"
+                  class="nav-link cus-nav2 br-clr"
                   aria-current="page"
                   href="index.html"
                   >Home</a
                 >
               </li>
               <li class="nav-item cus-nav2 br-clr">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="wishlist.html">Wishlist</a>
               </li>
               <li class="nav-item cus-nav2 br-clr">
                 <a class="nav-link" href="#">Contact</a>
@@ -155,7 +157,19 @@
               type="text"
               class="form-control"
               id="autoSizingInputGroup"
-              placeholder="Name"
+              placeholder="First Name"
+            />
+          </div>
+          <div class="input-group">
+            <div class="input-group-text">
+              <i class="bi bi-person-fill"></i>
+            </div>
+            <input
+            required
+              type="text"
+              class="form-control"
+              id="autoSizingInputGroup"
+              placeholder="Last Name"
             />
           </div>
           <div class="input-group">
@@ -178,16 +192,6 @@
               class="form-control"
               id="autoSizingInputGroup"
               placeholder="Password"
-            />
-          </div>
-          <div class="input-group">
-            <div class="input-group-text"><i class="bi bi-key-fill"></i></div>
-            <input
-            required
-              type="password"
-              class="form-control"
-              id="autoSizingInputGroup"
-              placeholder="Confirm Password"
             />
           </div>
           <div class="form-check">
@@ -234,10 +238,8 @@
             <img class="imgfot" src="./assets/images/logoText.png" alt="">
             <p class="pfot">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, aspernatur numquam. Est natus reprehenderit amet facilis autem quo vel minima esse ipsum libero tempora iure aliquid, fugit deserunt, ratione odit.</p>
             <ul class="ulfot">
-              <li class="lifot"><a href="#"><i class="bi bi-instagram bi2"></i></a></li>
-              <li class="lifot"><a href="#"><i class="bi bi-whatsapp bi2"></i></a></li>
-              <li class="lifot"><a href="#"><i class="bi bi-google bi2"></i></a></li>
-              <li class="lifot"><a href="#"><i class="bi bi-youtube bi2"></i></a></li>
+              <li class="lifot"><a href="#" title="Spotify"><i class="fab fa-spotify bi2 bi2s"></i></a></li>
+              <li class="lifot"><a href="#" title="YouTube"><i class="bi bi-youtube bi2 bi2y"></i></a></li>
             </ul>
           </div>
           <div class="col-sm-5 col-md-3">

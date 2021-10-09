@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Ecomilli - Superstore Home</title>
+    <title>Ecomilli - Product Details</title>
     <link
       rel="shortcut icon"
-      href="./assets/images/logo.png"
+      href="./assets/images/EcomilliAppLogo.png"
       type="image/x-icon"
     />
     <meta charset="UTF-8" />
@@ -43,6 +43,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
     />
+    <!-- fontawesome -->
+    <link href="./assets/fontawesome/css/all.css" rel="stylesheet">
   </head>
   <body data-bs-spy="scroll" data-bs-target=".navbar">
     <!-- Navigation Section 1 -->
@@ -79,10 +81,10 @@
               <li class="nav-item nav-custom" style="width: 70px; height: 70px">
                 <img
                   class="ico_img"
-                  src="./assets/images/icons/community.png"
+                  src="./assets/images/icons/Community.png"
                   alt=""
                 />
-                <a class="nav-link font_custom" href="communityHome.html"
+                <a class="nav-link font_custom" href="communityFeed.html"
                   >Community</a
                 >
               </li>
@@ -113,7 +115,7 @@
                   src="./assets/images/icons/signUp.png"
                   alt=""
                 />
-                <a class="nav-link font_custom" href="signUp.html">Sign Up</a>
+                <a class="nav-link font_custom" href="signIn.html">Sign In</a>
               </li>
             </ul>
           </div>
@@ -125,22 +127,42 @@
     <section id="header2" class="navnav">
       <nav class="navbar navbar-expand-lg navbar-light2 bg-green">
         <div class="container nav-con2">
-          <a class="navbar-brand br-clr" href="#"><i class="bi bi-list"></i></a>
+          <!-- <a class="navbar-brand br-clr" href="#"><i class="bi bi-list"></i></a> -->
           <div class="" id="navbarNav">
             <ul class="navbar-nav navbar-nav2">
-              <li class="nav-item">
+              <li class="nav-item dropdown">
                 <a
-                  class="nav-link active cus-nav2 br-clr"
-                  aria-current="page"
+                  class="nav-link dropdown-toggle"
                   href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="bi bi-list"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item sapce">
+                <a
+                  class="nav-link cus-nav2 br-clr"
+                  aria-current="page"
+                  href="index.html"
                   >Home</a
                 >
               </li>
               <li class="nav-item cus-nav2 br-clr">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="wishlist.html">Wishlist</a>
               </li>
               <li class="nav-item cus-nav2 br-clr">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#">Invite Friends</a>
               </li>
             </ul>
           </div>
@@ -170,7 +192,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="wishLogo"><i class="bi bi-heart"></i></div>
+                <div class="wishLogo" id="wishLogo" onclick="myFunction()" title="ADD TO WISHLIST"><i class="bi bi-heart-fill"></i></div>
               </div>
               <div class="row">
                 <div class="col-lg-6 disimg">
@@ -212,17 +234,44 @@
                   <div class="shareDiv">
                     <p class="p1p">Share:</p>
                     <div class="circlediv">
-                      <i class="bi bi-ui-radios-grid" title="ecomilli"></i>
+                      <a href="#"
+                        ><img
+                          class="circledivimg"
+                          src="./assets/images/EcomilliAppLogo.png"
+                          alt=""
+                      /></a>
                     </div>
                     <div class="circlediv">
-                      <i class="bi bi-envelope-fill" title="Gmail"></i>
+                      <a class="circledivA" href="#"
+                        ><i class="bi bi-envelope-fill" title="Gmail"></i
+                      ></a>
                     </div>
                     <div class="circlediv">
-                      <i class="bi bi-whatsapp" title="WhatsApp"></i>
+                      <a class="circledivA" href="#"
+                        ><i class="bi bi-whatsapp" title="WhatsApp"></i
+                      ></a>
                     </div>
                     <div class="circlediv">
-                      <i class="bi bi-back" title="Copy"></i>
+                      <a class="circledivA" href="#"
+                        ><i class="bi bi-back" title="Copy"></i
+                      ></a>
                     </div>
+                  </div>
+                  <div class="drop">
+                    <label for="color">Color:</label>
+                    <select name="color" id="color">
+                      <option value="red">Red</option>
+                      <option value="blue">Blue</option>
+                      <option value="white">White</option>
+                      <option value="pink">Pink</option>
+                    </select>
+                    <label for="size">Size:</label>
+                    <select name="size" id="size">
+                      <option value="s">S</option>
+                      <option value="m">M</option>
+                      <option value="l">L</option>
+                      <option value="xl">XL</option>
+                    </select>
                   </div>
                   <div class="counaddbuy">
                     <div class="counter">
@@ -248,6 +297,15 @@
                     <div class="proDesBody">
                       <p class="p2p">
                         A seemingly simple dustpan with a few features to make
+                        life easier. The arch and length of the ustpan eases
+                        cleanup, the wood turned handle provides firm grip
+                        Dustpan Measures 45 cm/17.7 in A seemingly simple dustpan with a few features to make
+                        life easier. The arch and length of the ustpan eases
+                        cleanup, the wood turned handle provides firm grip
+                        Dustpan Measures 45 cm/17.7 in A seemingly simple dustpan with a few features to make
+                        life easier. The arch and length of the ustpan eases
+                        cleanup, the wood turned handle provides firm grip
+                        Dustpan Measures 45 cm/17.7 in A seemingly simple dustpan with a few features to make
                         life easier. The arch and length of the ustpan eases
                         cleanup, the wood turned handle provides firm grip
                         Dustpan Measures 45 cm/17.7 in
@@ -513,7 +571,7 @@
     <section id="footer1">
       <div class="container">
         <div class="row">
-          <div class="col-sm-7 col-md-4">
+          <div class="col-sm-12 col-md-6">
             <img class="imgfot" src="./assets/images/logoText.png" alt="" />
             <p class="pfot">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
@@ -522,45 +580,92 @@
               ratione odit.
             </p>
             <ul class="ulfot">
-              <li class="lifot">
-                <a href="#"><i class="bi bi-instagram bi2"></i></a>
-              </li>
-              <li class="lifot">
-                <a href="#"><i class="bi bi-whatsapp bi2"></i></a>
-              </li>
-              <li class="lifot">
-                <a href="#"><i class="bi bi-google bi2"></i></a>
-              </li>
-              <li class="lifot">
-                <a href="#"><i class="bi bi-youtube bi2"></i></a>
-              </li>
+              <li class="lifot"><a href="#" title="Spotify"><i class="fab fa-spotify bi2 bi2s"></i></a></li>
+              <li class="lifot"><a href="#" title="YouTube"><i class="bi bi-youtube bi2 bi2y"></i></a></li>
             </ul>
           </div>
-          <div class="col-sm-5 col-md-3">
+
+          <div class="col-sm-12 col-md-6">
+            <div class="linkfot">
+              <h3 class="linkfottext">Social Media</h3>
+              <div class="appDownload">
+                <div class="qrapp">
+                  <img
+                    class="qrimg"
+                    src="./assets/images/Footer/QR Code Ecomilli.png"
+                    alt=""
+                  />
+                  <div class="ecoapp">
+                    <a href="#"
+                      ><img
+                        class="ecoapplogo"
+                        src="./assets/images/EcomilliAppLogo.png"
+                        alt=""
+                    /></a>
+                    <p class="mb-0">Happy shopping with Ecomilli Mobile App</p>
+                    <p mb-0><a class="anc_a" href="#">Download Now</a></p>
+                  </div>
+                </div>
+                <div class="downIosAndroid">
+                  <a href="#"
+                    ><img
+                      class="os"
+                      src="./assets/images/Footer/appStore.png"
+                      alt=""
+                  /></a>
+                  <a href="#"
+                    ><img
+                      class="os"
+                      src="./assets/images/Footer/playStore.png"
+                      alt=""
+                  /></a>
+                </div>
+                <div>
+                  <h5>Payment Methods</h5>
+                  <div class="paymet">
+                    <a href="#visa"
+                      ><img
+                        class="paymetimg"
+                        src="./assets/images/Footer/visa.png"
+                        alt=""
+                    /></a>
+                    <a href="# mastercard"
+                      ><img
+                        class="paymetimg"
+                        src="./assets/images/Footer/masterCard.png"
+                        alt=""
+                    /></a>
+                    <a href="#amex"
+                      ><img
+                        class="paymetimg"
+                        src="./assets/images/Footer/amex.png"
+                        alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
             <div class="linkfot">
               <h3 class="linkfottext">Link</h3>
               <ul class="lifotul">
-                <li class="lifotli bi3">Community</li>
-                <li class="lifotli bi3">Superstore</li>
-                <li class="lifotli bi3">Bag</li>
-                <li class="lifotli bi3">SignUp</li>
-                <li class="lifotli bi3">Contact</li>
+                <li class="lifotli bi3">
+                  <a class="au" href="#">Conditions of Use</a>
+                </li>
+                <li class="lifotli bi3">
+                  <a class="au" href="#">Privacy notice</a>
+                </li>
+                <li class="lifotli bi3">
+                  <a class="au" href="#">Interest-Based Ads</a>
+                </li>
+                <li class="lifotli bi3">
+                  <a class="au" href="#">Help Center</a>
+                </li>
+                <li class="lifotli bi3">
+                  <a class="au" href="#">Contact Us</a>
+                </li>
               </ul>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-5">
-            <div class="linkfot">
-              <h3 class="linkfottext">Social Media</h3>
-              <div class="fotimg1">
-                <img class="fotimg" src="./assets/images/tea.jpg" alt="" />
-                <img class="fotimg" src="./assets/images/tea.jpg" alt="" />
-                <img class="fotimg" src="./assets/images/tea.jpg" alt="" />
-              </div>
-              <div class="fotimg1">
-                <img class="fotimg" src="./assets/images/tea.jpg" alt="" />
-                <img class="fotimg" src="./assets/images/tea.jpg" alt="" />
-                <img class="fotimg" src="./assets/images/tea.jpg" alt="" />
-              </div>
             </div>
           </div>
         </div>

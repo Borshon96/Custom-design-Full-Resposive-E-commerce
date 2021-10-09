@@ -85,12 +85,12 @@
   border: 1px solid #ff9212;
 }
 .btnas:hover {
-    width: 100%;
-    border-radius: 2rem;
-    color: #ff9212;
-    background-color: #ffffff;
-    border: 1px solid #ff9212;
-  }
+  width: 100%;
+  border-radius: 2rem;
+  color: #ff9212;
+  background-color: #ffffff;
+  border: 1px solid #ff9212;
+}
 .div21 {
   background-color: rgb(161, 157, 157);
   padding: 1.6rem;

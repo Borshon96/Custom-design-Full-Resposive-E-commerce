@@ -37,7 +37,7 @@
   margin: 1rem;
   padding: 1rem;
   border-radius: 10px;
-  background-color: #d5e3a9;
+  background-color: #ffffff;
   box-shadow: 0px 0px 8px #046b4fc4;
 }
 .prodimg {
@@ -74,6 +74,11 @@
 }
 .circlediv:hover {
   box-shadow: 0px 0px 1px #046b4f;
+}
+.circledivimg {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
 }
 .p1p {
   margin-bottom: 0rem;
@@ -138,6 +143,30 @@
 .proDesBody {
   padding: 8px;
   border: 1px solid #046b4f;
+  max-height: 14rem;
+  min-height: 7rem;
+  overflow-y: scroll;
+}
+/* width */
+.proDesBody::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+/* .comment::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+} */
+
+/* Handle */
+.proDesBody::-webkit-scrollbar-thumb {
+  background: green;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.proDesBody::-webkit-scrollbar-thumb:hover {
+  background: #ff9e0c;
 }
 .p2p {
   margin-bottom: 0rem;
@@ -151,6 +180,7 @@
 }
 .comment {
   background-color: white;
+  border: 1px solid #d5e3a9;
   border-radius: 6px;
   width: 80%;
   height: 2.9rem;
@@ -163,10 +193,10 @@
 }
 
 /* Track */
-.comment::-webkit-scrollbar-track {
+/* .comment::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
-}
+} */
 
 /* Handle */
 .comment::-webkit-scrollbar-thumb {
@@ -228,7 +258,7 @@
   margin: 1rem;
   border: 1px solid #d5e3a9;
   border-radius: 14px;
-  background-color: #d5e3a9;
+  background-color: #ffffff;
 }
 .unknown {
   padding-left: 1rem;
@@ -248,4 +278,25 @@
 .vvdiv {
   display: flex;
   justify-content: center;
+}
+.circledivA {
+  text-decoration: none;
+  color: #046b4f;
+}
+.drop {
+  margin: 1rem 1rem 1rem 0rem;
+}
+#color {
+  border: 1px solid #046b4f;
+  height: 2rem;
+  border-radius: 4px;
+}
+#size {
+  border: 1px solid #046b4f;
+  height: 2rem;
+  border-radius: 4px;
+}
+#wishLogo {
+  color: gray;
+  cursor: pointer;
 }

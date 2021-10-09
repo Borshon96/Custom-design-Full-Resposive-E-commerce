@@ -68,6 +68,7 @@ a {
 }
 .rigAl {
   width: 20rem;
+  margin-top: 2rem;
 }
 .lefAl {
   width: 30rem;
@@ -82,7 +83,20 @@ a {
   border-color: #ff9212;
 }
 .btn-danger3:hover {
-    color: #046b4f;
-    background-color: #ffffff;
-    border-color: #046b4f;
-  }
+  color: #046b4f;
+  background-color: #ffffff;
+  border-color: #046b4f;
+}
+.bi-bag-plus-fill {
+  color: green;
+  font-size: 1.4rem;
+  margin-right: 1rem;
+}
+.bi-bag-plus-fill:hover {
+  color: skyblue;
+  font-size: 1.4rem;
+  margin-right: 1rem;
+}
+.actionplus {
+  display: flex;
+}
